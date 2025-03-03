@@ -84,4 +84,5 @@
             status = "reserved";
         };
     };
+{&OUT_BLE}
 };
