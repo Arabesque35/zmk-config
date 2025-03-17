@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '='
+  - '-'
   - ↹
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - '='
   - F4
   - A
   - S
@@ -109,7 +109,7 @@ layers:
   - '0'
   - '='
   - +
-  - '|'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
