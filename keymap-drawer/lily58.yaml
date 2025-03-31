@@ -71,7 +71,7 @@ layers:
   - '8'
   - '9'
   - '-'
-  - {t: ▽, type: trans}
+  - \
   - F1
   - F2
   - F3
@@ -96,7 +96,7 @@ layers:
   - '3'
   - /
   - '~'
-  - {t: ▽, type: trans}
+  - {t: Bas, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -109,7 +109,7 @@ layers:
   - '0'
   - '='
   - +
-  - \
+  - {t: Bas, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,7 +155,7 @@ layers:
   - ↑
   - →
   - {t: ▽, type: trans}
-  - F7
+  - {t: Bas, h: toggle}
   - F8
   - F9
   - F10
@@ -168,7 +168,7 @@ layers:
   - '='
   - '['
   - ']'
-  - \
+  - {t: Bas, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,3 +177,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [36, 49]
+  k: '|'
