@@ -42,84 +42,84 @@
         january: january {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N1 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N1 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "JANUARY";
         };
 
         february: february {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N2 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N2 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "FEBRUARY";
         };
 
         march: march {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N3 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N3 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "MARCH";
         };
 
         april: april {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N4 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N4 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "APRIL";
         };
 
         may: may {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N5 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N5 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "MAY";
         };
 
         june: june {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N6 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N6 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "JUNE";
         };
 
         july: july {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N7 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N7 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "JULY";
         };
 
         august: august {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N8 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N8 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "AUGUST";
         };
 
         september: september {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N9 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N0 &kp N9 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "SEPTEMBER";
         };
 
         october: october {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N1 &kp N0 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N1 &kp N0 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "OCTOBER";
         };
 
         november: november {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N1 &kp N1 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N1 &kp N1 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "NOVEMBER";
         };
 
         december: december {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PIPE &kp SPACE &kp N1 &kp N2 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE>;
+            bindings = <&none &kp PIPE &kp SPACE &kp N1 &kp N2 &kp FSLH &kp N0 &kp N1 &kp SPACE &kp LS(R) &kp E &kp N &kp E &kp W &kp A &kp L &kp SPACE &kp PIPE &to 0>;
             label = "DECEMBER";
         };
     };
