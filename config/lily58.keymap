@@ -8,6 +8,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+&mt {
+    flavor = "tap-preferred";
+    require-prior-idle-ms = <125>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -19,22 +24,22 @@
 
         resetleft {
             bindings = <&sys_reset>;
-            key-positions = <38 39 40 41>;
+            key-positions = <40 41>;
         };
 
         resetright {
             bindings = <&sys_reset>;
-            key-positions = <44 45 46 47>;
+            key-positions = <44 45>;
         };
 
         bootloaderleft {
             bindings = <&bootloader>;
-            key-positions = <14 15 16 17>;
+            key-positions = <16 17>;
         };
 
         bootloaderright {
             bindings = <&bootloader>;
-            key-positions = <18 19 20 21>;
+            key-positions = <18 19>;
         };
     };
 
