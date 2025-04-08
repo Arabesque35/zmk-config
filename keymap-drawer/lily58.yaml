@@ -26,18 +26,18 @@ layers:
   - P
   - '='
   - F4
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
   - ''''
-  - $$mdi:apple-keyboard-shift$$
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -50,9 +50,9 @@ layers:
   - ','
   - .
   - /
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - RIGHT SHIFT
+  - F2
+  - DELETE
   - {t: Low, h: toggle}
   - ␣
   - ⏎
@@ -72,24 +72,24 @@ layers:
   - '9'
   - '-'
   - \
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
+  - '&january'
+  - '&february'
+  - '&march'
+  - '&april'
+  - '&may'
+  - '&june'
   - '`'
   - '4'
   - '5'
   - '6'
   - '*'
   - F12
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - '&july'
+  - '&august'
+  - '&september'
+  - '&october'
+  - '&november'
+  - '&december'
   - ^
   - '1'
   - '2'
@@ -131,24 +131,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
   - F6
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - ←
   - ↓
@@ -156,11 +156,11 @@ layers:
   - →
   - {t: ▽, type: trans}
   - {t: Bas, h: toggle}
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Bas, h: toggle}
   - {t: Bas, h: toggle}
   - KP PLUS
@@ -178,5 +178,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [36, 49]
+- p: [42, 43]
   k: '|'
+- p: [38, 39, 40, 41]
+  k: Reset
+- p: [44, 45, 46, 47]
+  k: Reset
+- p: [14, 15, 16, 17]
+  k: Boot
+- p: [18, 19, 20, 21]
+  k: Boot
