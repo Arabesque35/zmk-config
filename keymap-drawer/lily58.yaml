@@ -102,8 +102,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Bas, h: toggle}
-  - {t: Bas, h: toggle}
+  - Reset
+  - Reset
   - {t: ▽, type: trans}
   - '-'
   - '0'
@@ -137,18 +137,18 @@ layers:
   - F4
   - F5
   - F6
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
   - F7
   - F8
   - F9
   - F10
   - F11
   - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ←
   - ↓
@@ -161,8 +161,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Bas, h: toggle}
-  - {t: Bas, h: toggle}
+  - Reset
+  - Reset
   - KP PLUS
   - '-'
   - '='
